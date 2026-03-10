@@ -21,7 +21,7 @@ This is a sample command that works, you can change optptions as described in th
 
 ```
 java -jar cg-brutaltester-1.0.0-SNAPSHOT.jar \
-    -r "java --add-opens java.base/java.lang=ALL-UNNAMED -jar -Dleague.level=5 winter-challenge-2025-snakebird-1.0-SNAPSHOT.jar" \
+    -r "java --add-opens java.base/java.lang=ALL-UNNAMED -jar -Dleague.level=1 winter-challenge-2025-snakebird-1.0-SNAPSHOT.jar" \
     -p1 "python3 player_a.py" \
     -p2 "python3 player_b.py" \
     -s     \
@@ -29,6 +29,6 @@ java -jar cg-brutaltester-1.0.0-SNAPSHOT.jar \
     -n 10
 ```
 
-Option `-Dleague.level=5` above defines League-5 that is valid for Bronze and higher leagues.
+Option `-Dleague.level=1` above defines League-1 that is Bronze. Other league levels are 2 - Silver, 3 - Gold, 4 - Legend.
 
 ---
